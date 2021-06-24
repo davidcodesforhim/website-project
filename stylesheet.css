@@ -1,8 +1,9 @@
 /* poppins font */
 @font-face {
     font-family: Poppins;
-    src: url('font/POPPINS-REGULAR.TTF');
+    src: url(font/POPPINS-REGULAR.TTF);
   }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +14,7 @@
 body{
     background: linear-gradient(-45deg, #ee7752,#e73c7e, #23a);
     background-size: cover;
-    font-family: "Poppins";
+    font-family: Poppins;
 }
 header{
     background-color: #733377;
