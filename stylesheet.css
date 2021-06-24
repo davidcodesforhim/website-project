@@ -8,13 +8,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Century ;
 
 }
 body{
     background: linear-gradient(-45deg, #ee7752,#e73c7e, #23a);
     background-size: cover;
-    font-family: Poppins;
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     background-color: #733377;
@@ -62,7 +61,6 @@ ul li.active a{
 }
 
 .home{
-    
     height: 75vh;
     width: 50%;
     background: #ee7752 ;
@@ -85,7 +83,7 @@ ul li.active a{
     margin-left: 350px;
     text-align: right;
 }
-.about{
+/* .about{
     padding: 50px;
     margin-top: 50px;
     margin-left: 40px; 
@@ -94,12 +92,10 @@ ul li.active a{
     background: white;
     text-align: center;
     border-radius: 10px;
-}
-.about p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+} */
 
-.history{
+
+/* .history{
     
     padding: 50px;
     margin-top: 50px;
@@ -109,7 +105,7 @@ ul li.active a{
     background: white;
     text-align: center;
     border-radius: 10px;
-}
+} */
 .top{
     
     font-size: 30px;
@@ -170,8 +166,14 @@ img:hover{
     transform: scale(1.1);
 }
 .card{
-     max-width: 600px;
+     max-width: 700px;
     background: white;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 30px rgb(rgb0,0,0,0.02);
+    box-shadow: 0px 0px 15px 10px rgb(0,0,0,0.07);
+    text-align: center;
+    padding: 30px;
+    margin: 30px auto;
+}
+.card h1{
+    margin-bottom: 10px;
 }
