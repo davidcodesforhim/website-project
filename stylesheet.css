@@ -10,6 +10,22 @@
     padding: 0;
 
 }
+html{
+    height:100%;
+}
+/* for all */
+.card{
+    max-width: 700px;
+   background: white;
+   border-radius: 10px;
+   box-shadow: 0px 0px 15px 10px rgb(0,0,0,0.07);
+   text-align: center;
+   padding: 30px;
+   margin: 30px auto;
+}
+.card h1{
+   margin-bottom: 10px;
+}
 body{
     background: linear-gradient(-45deg, #ee7752,#e73c7e, #23a);
     background-size: cover;
@@ -165,15 +181,29 @@ ul li.active a{
 img:hover{
     transform: scale(1.1);
 }
-.card{
-     max-width: 700px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px 10px rgb(0,0,0,0.07);
-    text-align: center;
-    padding: 30px;
-    margin: 30px auto;
+/* contact us page */
+.contacts{
+    margin-left: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
-.card h1{
-    margin-bottom: 10px;
+.contacts > a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contacts > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+.contacts > a >p{
+    margin-left: 20px;
+}
+.contacts > a:hover{
+    color:#EC6460;
+}
+.contact-card{
+    margin-top:100px;
 }
